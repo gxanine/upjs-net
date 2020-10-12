@@ -11,7 +11,7 @@
   </a>
 </p>
 
-# Simple .Net Framework wrapper library for using upjs.exe
+# Simple .Net Framework wrapper library for using [upjs](https://github.com/gilnicki/upjs)
 
 **upjs-net** is a .Net framework wrapper for [upjs](https://github.com/gilnicki/upjs) - simple app for downloading updates for your program.
 
