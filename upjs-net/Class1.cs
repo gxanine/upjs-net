@@ -61,6 +61,12 @@ namespace upjs
         {
             Execute("rem-old -s");
         }
+
+
+        public static void RestartSelf(Process mainProcess)
+        {
+            Process.Start(mainProcess.MainModule.FileName);
+            mainProcess.Kill();
         }
     }
 
