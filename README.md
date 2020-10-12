@@ -15,7 +15,17 @@
 
 **upjs-net** is a .Net framework wrapper for [upjs](https://github.com/gilnicki/upjs) - simple app for downloading updates for your program.
 
-# This README file is still in development too
+#### This README file is still in development too
+
+### Reference the dll in your .Net Framework (>= **4.0**) project to:
+- Execute upjs commands with `Execute(string args)` (**`args`** is just what you would pass after calling upjs.exe directly)
+It returns a string which is the output of upjs process
+- Run full Github upgrade with `GithubFull(string user, string repo, string current_version)` **(Returns bool)**
+- Run upjs clear with `Clear()`
+- Run upjs rem-old with `RemOld()`
+- You can also run `RestartSelf(Process mainProcess)` after a successful upgrade this will stop the old and start the new version of your program like a boss 🥇 
+
+### Note: you need the [upjs.exe](https://github.com/gilnicki/upjs) in your main directory!
 
 ---
 
