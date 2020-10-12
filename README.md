@@ -13,7 +13,7 @@
 
 # Simple .Net Framework wrapper library for using upjs.exe
 
-**upjs-net** is a .Net framework wrapper for [npjs](https://github.com/gilnicki/upjs) - simple app for downloading updates for your program.
+**upjs-net** is a .Net framework wrapper for [upjs](https://github.com/gilnicki/upjs) - simple app for downloading updates for your program.
 
 # This README file is still in development too
 
